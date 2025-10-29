@@ -196,27 +196,6 @@ logTextEvent("장바구니에 담기", {
 // → price: 29000
 ```
 
-## 🔧 고급 설정
-
-### 캐시 확인하기
-
-```typescript
-// 브라우저 콘솔에서 확인
-console.log('현재 캐시된 번역:', translationCache);
-```
-
-### 동적 요소 감지 비활성화
-
-MutationObserver를 비활성화하려면 `amplitude.ts` 파일에서 해당 부분을 주석 처리하세요.
-
-```typescript
-// const observer = new MutationObserver(() => {
-//   const allTexts = collectAllTexts();
-//   batchTranslateTexts(allTexts);
-// });
-// observer.observe(document.body, { childList: true, subtree: true });
-```
-
 ## 📊 Amplitude에서 확인하기
 
 ### 이벤트 구조
