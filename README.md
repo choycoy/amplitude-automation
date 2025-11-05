@@ -202,7 +202,7 @@ logTextEvent("장바구니에 담기", {
 
 ```javascript
 {
-  event_type: "login_clicked",           // 영어 이벤트 이름
+  event_type: "login_clicked",          // 영어 이벤트 이름
   event_properties: {
     event_display_name: "로그인",        // 한국어 원문
     button_text: "로그인",
@@ -235,11 +235,6 @@ logTextEvent("장바구니에 담기", {
 - **Amplitude** 
 - **OpenAI GPT-4o-mini** 
 - **TypeScript** 
-
-## 📝 라이센스
-
-MIT
-
 
 ---
 
