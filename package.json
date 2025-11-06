@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@amplitude/analytics-browser": "^2.0.0",
+    "firebase": "^12.5.0",
     "lucide-react": "^0.548.0",
     "next": "15.5.3",
     "openai": "^6.7.0",
